@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Assignment_1 Q_7</title>
+
+    <style>
+      .testimonials {
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+      }
+
+      .testimonial {
+        text-align: center;
+        margin: 20px;
+        padding: 20px;
+        border: 1px solid #ddd;
+      }
+
+      .testimonial img {
+        width: 100px;
+        height: 100px;
+        border-radius: 50%;
+      }
+
+      @media screen and (max-width: 768px) {
+        .testimonials {
+          flex-direction: column;
+          align-items: center;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <section class="testimonials">
+      <div class="testimonial">
+        <img src="img.jpg" alt="Customer 1" />
+        <p>"Great service!"</p>
+        <h4>Customer 1</h4>
+      </div>
+      <div class="testimonial">
+        <img src="img.jpg" alt="Customer 2" />
+        <p>"Amazing products!"</p>
+        <h4>Customer 2</h4>
+      </div>
+    </section>
+  </body>
+</html>

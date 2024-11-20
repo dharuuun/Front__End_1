@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Assignment_1 Q_6</title>
+    <style>
+        .blog-post {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.sidebar {
+    width: 250px;
+}
+
+@media screen and (max-width: 768px) {
+    .blog-post {
+        flex-direction: column;
+    }
+}
+
+    </style>
+  </head>
+  <body>
+    <div class="blog-post">
+      <h1>Blog Post Title</h1>
+      <h2>Subtitle</h2>
+      <p>Content goes here...</p>
+      <aside class="sidebar">
+        <h3>Related Posts</h3>
+        <ul>
+          <li><a href="#">Post 1</a></li>
+          <li><a href="#">Post 2</a></li>
+        </ul>
+      </aside>
+    </div>
+  </body>
+</html>

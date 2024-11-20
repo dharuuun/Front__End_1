@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment_1 Q_4</title>
+    <style>
+        .product-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.product {
+    text-align: center;
+    width: 200px;
+    margin: 20px;
+    border: 1px solid #ddd;
+    padding: 10px;
+}
+
+.product img {
+    width: 100%;
+    transition: transform 0.3s;
+}
+
+.product:hover img {
+    transform: scale(1.1);
+}
+
+.product h3 {
+    font-family: 'Arial', sans-serif;
+    font-size: 18px;
+}
+
+    </style>
+
+</head>
+<body>
+    <div class="product-container">
+        <div class="product">
+            <img src="img.jpg" alt="Product 1">
+            <h3>Product 1</h3>
+            <p>$20.00</p>
+        </div>
+        <div class="product">
+            <img src="product2.jpg" alt="Product 2">
+            <h3>Product 2</h3>
+            <p>$25.00</p>
+        </div>
+        
+    </div>
+</body>
+</html>
